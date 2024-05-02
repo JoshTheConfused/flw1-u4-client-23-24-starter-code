@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+  </head>
+  
+  <body>
+    <div id="title">
+      <h1>NYC Weather Report</h1>
+      <h2>(And outfit picker!)</h2>
+    </div>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script defer src="script.js"></script>
-</head>
-
-<body>
-  <h1>Client Project</h1>
-</body>
-
+    <div id="content">
+      <div id="weather-summary">
+        <p id="high"></p>
+        <p id="low"></p>
+        <p id="rain"></p>
+      </div>
+      
+      <div id="outfit">
+        <div class="clothes" id="headwear"></div>
+        <div class="clothes" id="jacket"></div>
+        <div class="clothes" id="shirt"></div>
+        <div class="clothes" id="pants"></div>
+        <div class="clothes" id="shoes"></div>
+      </div>
+    </div>
+  </body>
 </html>
