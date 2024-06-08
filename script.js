@@ -35,10 +35,59 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&uni
   headwearDiv.appendChild(headwearImg);
 
   // Jacket
+  let jacket;
+  if (intensity >= 1) {
+    jacket = "https://teaknewyork.com/cdn/shop/products/1091001_PAIKKA_Human_Visibility_Raincoat_leo_W_1800x1800_28f2ece4-d3f0-4adb-a5d7-9d36baede67b_2000x.webp?v=1677093032";
+  }
+  else if (temp < 40) {
+    jacket = "https://www.semsem.com/cdn/shop/products/pink_faux_fur_jacket-front-optimized_1800x1800.jpg?v=1601993115";
+  }
+  else if (temp < 70) {
+    jacket = "https://www.mrporter.com/variants/images/1647597320281710/in/w2000_q60.jpg";
+  }
+  else {
+    jacket = "https://ih1.redbubble.net/image.4818281775.2256/ssrco,tote,cotton,canvas_creme,lifestyle,tall_portrait,750x1000-bg,f8f8f8.1.jpg";
+  }
+
+  let jacketImg = document.createElement("img");
+  jacketImg.src = jacket;
+  jacketDiv.appendChild(jacketImg);
 
   // Shirt
+  let shirt;
+  let rand = Math.floor(Math.random() * 3);
+  if (rand === 0) {
+    shirt = "https://cdn-images.threadless.com/threadless-media/artist_shops/shops/saracamila/products/137456/shirt-1481588874-b8567ba56a70d9fd98cc1298896f29e1.png?v=3&d=eyJvcHMiOiBbWyJ0cmltc2NyaXB0IiwgWzEyMDAuMCwgMTM3MS40Mjg1NzE0Mjg1NzEzXSwge31dLCBbImVuY29kZSIsIFsiLnBuZyJdLCB7ImRwaSI6IDMwMH1dLCBbInJlc2l6ZSIsIFs4NThdLCB7fV0sIFsib3ZlcmxheSIsIFsidGhyZWFkbGVzcy1tZWRpYS9hcnRpc3Rfc2hvcHMvb3ZlcmxheXMvY2F0ZWdvcmllcy9tZW5zL3NpemVzLyovc3R5bGVzL3RyaWJsZW5kLXRlZS9jb2xvcnMvKi9mcm9udC5wbmciXSwgeyJ4IjogNTU5LCAieSI6IDQ3MCwgImJhY2tncm91bmQiOiAiZjBmMGYyIn1dLCBbInJlc2l6ZSIsIFs4MDBdLCB7fV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzgwMCwgODAwLCAiI2ZmZmZmZiJdLCB7fV0sIFsiZW5jb2RlIiwgWyJqcGciLCA4NV0sIHt9XV0sICJmb3JjZSI6IGZhbHNlLCAib25seV9tZXRhIjogZmFsc2V9";
+  }
+  else if (rand === 1) {
+    shirt = "https://aade01b1a91c682e1e92-ec8939d490975661e239f5b2b5f886ec.ssl.cf2.rackcdn.com/product-hugerect-297130-73147-1394789642-118f899ad6de59efd3bd8874787e5641.394789643_type_hugerect_nid_297130_uid_73147_0";
+  }
+  else {
+    shirt = "https://s3.dualstack.us-east-1.amazonaws.com/static.customizedgirl.com/images/design/3130c34eea707c1d64d455b6e26e4e50_4639870_0_bigger.jpg";
+  }
+
+  let shirtImg = document.createElement("img");
+  shirtImg.src = shirt;
+  shirtDiv.appendChild(shirtImg);
 
   // Pants
+  let pants;
+  if (weather.description.includes("snow") || temp <= 32) {
+    pants = "https://cdn.backpacker.com/wp-content/uploads/2021/11/columbia-snowpants.jpg?width=1200";
+  }
+  else if (intensity >= 1) {
+    pants = "https://static.grainger.com/rp/s/is/image/Grainger/8AGL7_AA01";
+  }
+  else if (temp > 75) {
+    pants = "https://thestreetsofseoul.com/cdn/shop/files/Extra-Long-Vintage-Wash-Jorts-thestreetsofseoul-korean-street-style-minimal-streetwear-k-style-kstyle-mens-affordable-clothing-8.webp?v=1716478865&width=800";
+  }
+  else {
+    pants = "https://trippnyc.com/cdn/shop/files/AF3718_BLKBLK_B_1000x.jpg?v=1689264372";
+  }
+
+  let pantsImg = document.createElement("img");
+  pantsImg.src = pants;
+  pantsDiv.appendChild(pantsImg);
 
   // Shoes
   let shoes;
@@ -66,7 +115,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&uni
   }
   let shoeImg = document.createElement("img");
   shoeImg.src = shoes;
-  headwearDiv.appendChild(shoeImg);
+  shoesDiv.appendChild(shoeImg);
 });
 
 // based on the weather data, determine the appropriate outfit, and load the corresponding description and image for each piece of clothing

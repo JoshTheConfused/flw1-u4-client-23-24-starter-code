@@ -4,11 +4,21 @@ Headwear
   Wide-Brim (summer): https://www.dallasgeneralwholesale.com/cdn/shop/products/WHOLESALE-BIG-HUGE-WIDE-BRIM-SUMMER-GARDEN-STRAW-HAT.jpg?v=1588309148
 
 Jacket
-  Fuzzy Pink (default): https://www.semsem.com/cdn/shop/products/pink_faux_fur_jacket-front-optimized_1800x1800.jpg?v=1601993115
+  Fuzzy Pink (cold): https://www.semsem.com/cdn/shop/products/pink_faux_fur_jacket-front-optimized_1800x1800.jpg?v=1601993115
+  Suit Jacket (mid-range temperatures): https://www.mrporter.com/variants/images/1647597320281710/in/w2000_q60.jpg
+  Raincoat (precipitation): https://teaknewyork.com/cdn/shop/products/1091001_PAIKKA_Human_Visibility_Raincoat_leo_W_1800x1800_28f2ece4-d3f0-4adb-a5d7-9d36baede67b_2000x.webp?v=1677093032
+  Bag (warm weather): https://ih1.redbubble.net/image.4818281775.2256/ssrco,tote,cotton,canvas_creme,lifestyle,tall_portrait,750x1000-bg,f8f8f8.1.jpg
 
 Shirt
+  Option 1: https://cdn-images.threadless.com/threadless-media/artist_shops/shops/saracamila/products/137456/shirt-1481588874-b8567ba56a70d9fd98cc1298896f29e1.png?v=3&d=eyJvcHMiOiBbWyJ0cmltc2NyaXB0IiwgWzEyMDAuMCwgMTM3MS40Mjg1NzE0Mjg1NzEzXSwge31dLCBbImVuY29kZSIsIFsiLnBuZyJdLCB7ImRwaSI6IDMwMH1dLCBbInJlc2l6ZSIsIFs4NThdLCB7fV0sIFsib3ZlcmxheSIsIFsidGhyZWFkbGVzcy1tZWRpYS9hcnRpc3Rfc2hvcHMvb3ZlcmxheXMvY2F0ZWdvcmllcy9tZW5zL3NpemVzLyovc3R5bGVzL3RyaWJsZW5kLXRlZS9jb2xvcnMvKi9mcm9udC5wbmciXSwgeyJ4IjogNTU5LCAieSI6IDQ3MCwgImJhY2tncm91bmQiOiAiZjBmMGYyIn1dLCBbInJlc2l6ZSIsIFs4MDBdLCB7fV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzgwMCwgODAwLCAiI2ZmZmZmZiJdLCB7fV0sIFsiZW5jb2RlIiwgWyJqcGciLCA4NV0sIHt9XV0sICJmb3JjZSI6IGZhbHNlLCAib25seV9tZXRhIjogZmFsc2V9
+  Option 2: https://aade01b1a91c682e1e92-ec8939d490975661e239f5b2b5f886ec.ssl.cf2.rackcdn.com/product-hugerect-297130-73147-1394789642-118f899ad6de59efd3bd8874787e5641.394789643_type_hugerect_nid_297130_uid_73147_0
+  Option 3: https://s3.dualstack.us-east-1.amazonaws.com/static.customizedgirl.com/images/design/3130c34eea707c1d64d455b6e26e4e50_4639870_0_bigger.jpg
 
 Pants
+  Baggy with chains (default): https://trippnyc.com/cdn/shop/files/AF3718_BLKBLK_B_1000x.jpg?v=1689264372
+  Snow pants (snow, cold): https://cdn.backpacker.com/wp-content/uploads/2021/11/columbia-snowpants.jpg?width=1200
+  Rain pants (rain): https://static.grainger.com/rp/s/is/image/Grainger/8AGL7_AA01
+  Jorts (warm weather): https://thestreetsofseoul.com/cdn/shop/files/Extra-Long-Vintage-Wash-Jorts-thestreetsofseoul-korean-street-style-minimal-streetwear-k-style-kstyle-mens-affordable-clothing-8.webp?v=1716478865&width=800
 
 Shoes
   High-heeled crocs (summer weather): https://images.stockx.com/images/Balenciaga-x-Crocs-Madame-80MM-Black-W.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1637172192&q=60
